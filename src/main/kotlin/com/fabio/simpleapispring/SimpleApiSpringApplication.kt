@@ -9,3 +9,4 @@ class SimpleApiSpringApplication
 fun main(args: Array<String>) {
 	runApplication<SimpleApiSpringApplication>(*args)
 }
+

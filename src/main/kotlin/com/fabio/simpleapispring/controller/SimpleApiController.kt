@@ -10,4 +10,9 @@ class SimpleApiController {
     fun hello():String {
         return "Hello World!"
     }
+
+    @GetMapping("/")
+    fun hello2():String {
+        return "Hello World2!"
+    }
 }
