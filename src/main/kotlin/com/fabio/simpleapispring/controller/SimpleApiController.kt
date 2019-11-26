@@ -19,11 +19,11 @@ class SimpleApiController {
         return "Hello World2!"
     }
 
-    @PostMapping("/post")
-    fun helloPost(@RequestBody body: RequestBody):String {
-        val bodyReq:String = body.toString();
-
-        val json = Gson().toJson(bodyReq);
-        return json;
-    }
+//    @PostMapping("/post")
+//    fun helloPost(@RequestBody body: RequestBody):String {
+//        val bodyReq:String = body.toString();
+//
+//        val json = Gson().toJson(bodyReq);
+//        return json;
+//    }
 }
